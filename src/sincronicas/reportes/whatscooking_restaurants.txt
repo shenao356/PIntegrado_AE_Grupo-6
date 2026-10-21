@@ -30,7 +30,7 @@ Valores nulos por columna:
   - Puntaje_Popularidad: 0
   - Categoria_Precio: 0
 
-Estadísticas de columnas numéricas:
+Estadisticas de columnas numericas:
        Calificacion  Total_Resenas  Rango_Precio  Puntaje_Popularidad
 count      4173.000       4173.000      3773.000             4173.000
 mean          3.791        109.507         1.630              421.437
