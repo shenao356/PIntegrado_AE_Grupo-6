@@ -1,0 +1,80 @@
+======================================================================
+REPORTE DE RESUMEN DEL DATAFRAME - PROYECTO INTEGRADOR (AE2)
+======================================================================
+Identificador del Dataset en Hugging Face: MongoDB/whatscooking.restaurants
+Split utilizado: train
+Muestra o total: Conjunto completo cargado directamente desde el split oficial.
+Total de Filas (Observaciones): 25,361
+Total de Columnas (Variables): 18
+----------------------------------------------------------------------
+LISTADO DE COLUMNAS Y TIPOS DE DATOS:
+----------------------------------------------------------------------
+ - restaurant_id        | Tipo: str            
+ - location             | Tipo: object         
+ - _id                  | Tipo: object         
+ - review_count         | Tipo: int64          
+ - DogsAllowed          | Tipo: object         
+ - embedding            | Tipo: object         
+ - PriceRange           | Tipo: float64        
+ - menu                 | Tipo: object         
+ - HappyHour            | Tipo: object         
+ - TakeOut              | Tipo: bool           
+ - address              | Tipo: object         
+ - sponsored            | Tipo: float64        
+ - attributes           | Tipo: object         
+ - borough              | Tipo: str            
+ - OutdoorSeating       | Tipo: object         
+ - name                 | Tipo: str            
+ - cuisine              | Tipo: str            
+ - stars                | Tipo: float64        
+----------------------------------------------------------------------
+CONTEO DE VALORES NULOS POR COLUMNA:
+----------------------------------------------------------------------
+ - restaurant_id        | Nulos:      0 (  0.00 %)
+ - location             | Nulos:      0 (  0.00 %)
+ - _id                  | Nulos:      0 (  0.00 %)
+ - review_count         | Nulos:      0 (  0.00 %)
+ - DogsAllowed          | Nulos:  19670 ( 77.56 %)
+ - embedding            | Nulos:      0 (  0.00 %)
+ - PriceRange           | Nulos:   2414 (  9.52 %)
+ - menu                 | Nulos:  11233 ( 44.29 %)
+ - HappyHour            | Nulos:  19393 ( 76.47 %)
+ - TakeOut              | Nulos:      0 (  0.00 %)
+ - address              | Nulos:      0 (  0.00 %)
+ - sponsored            | Nulos:  25339 ( 99.91 %)
+ - attributes           | Nulos:      0 (  0.00 %)
+ - borough              | Nulos:      0 (  0.00 %)
+ - OutdoorSeating       | Nulos:   5078 ( 20.02 %)
+ - name                 | Nulos:      0 (  0.00 %)
+ - cuisine              | Nulos:      0 (  0.00 %)
+ - stars                | Nulos:      0 (  0.00 %)
+----------------------------------------------------------------------
+ESTADÍSTICAS BÁSICAS DE VARIABLES NUMÉRICAS CLAVE:
+----------------------------------------------------------------------
+Variable: stars
+   Conteo válidos: 25,361
+   Promedio:       3.53
+   Desv. Estándar: 0.79
+   Mínimo:         1.00
+   Mediana (50%):  3.50
+   Máximo:         5.00
+
+Variable: review_count
+   Conteo válidos: 25,361
+   Promedio:       96.04
+   Desv. Estándar: 193.40
+   Mínimo:         5.00
+   Mediana (50%):  39.00
+   Máximo:         9185.00
+
+Variable: PriceRange
+   Conteo válidos: 22,947
+   Promedio:       1.60
+   Desv. Estándar: 0.59
+   Mínimo:         1.00
+   Mediana (50%):  2.00
+   Máximo:         4.00
+
+======================================================================
+Fin del reporte automático generado por el notebook.
+======================================================================
