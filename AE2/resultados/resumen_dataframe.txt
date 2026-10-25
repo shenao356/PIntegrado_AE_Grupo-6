@@ -9,7 +9,7 @@ Total de Columnas (Variables): 18
 ----------------------------------------------------------------------
 LISTADO DE COLUMNAS Y TIPOS DE DATOS:
 ----------------------------------------------------------------------
- - restaurant_id        | Tipo: str            
+ - restaurant_id        | Tipo: object         
  - location             | Tipo: object         
  - _id                  | Tipo: object         
  - review_count         | Tipo: int64          
@@ -22,10 +22,10 @@ LISTADO DE COLUMNAS Y TIPOS DE DATOS:
  - address              | Tipo: object         
  - sponsored            | Tipo: float64        
  - attributes           | Tipo: object         
- - borough              | Tipo: str            
+ - borough              | Tipo: object         
  - OutdoorSeating       | Tipo: object         
- - name                 | Tipo: str            
- - cuisine              | Tipo: str            
+ - name                 | Tipo: object         
+ - cuisine              | Tipo: object         
  - stars                | Tipo: float64        
 ----------------------------------------------------------------------
 CONTEO DE VALORES NULOS POR COLUMNA:
