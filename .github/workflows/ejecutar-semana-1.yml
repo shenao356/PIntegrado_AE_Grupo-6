@@ -39,12 +39,14 @@ jobs:
           source .venv/bin/activate
           .venv/bin/python -m pip install --upgrade pip
           .venv/bin/python -m pip install -r requirements.txt
+          .venv/bin/python -m pip install -r AE2/requirements.txt
 
       - name: Limpiar salidas anteriores
         run: |
           # Borramos salidas previas para que la generacion sea siempre limpia y automatica
           rm -f src/sincronicas/datos/whatscooking_restaurants.csv
           rm -f src/sincronicas/reportes/whatscooking_restaurants.txt
+          rm -f AE2/resultados/resumen_dataframe.txt
 
       - name: Ejecutar Semana_1SINC.ipynb
         working-directory: src/sincronicas
@@ -57,11 +59,22 @@ jobs:
             --ExecutePreprocessor.timeout=1800 \
             Semana_1SINC.ipynb
 
+      - name: Ejecutar EA2_Exploracion_Dataset_HuggingFace.ipynb (AE2)
+        working-directory: AE2/notebooks
+        run: |
+          source ../../.venv/bin/activate
+          jupyter nbconvert \
+            --to notebook \
+            --execute \
+            --inplace \
+            --ExecutePreprocessor.timeout=1800 \
+            EA2_Exploracion_Dataset_HuggingFace.ipynb
+
       - name: Guardar cambios generados
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/sincronicas/datos src/sincronicas/reportes src/sincronicas/Semana_1SINC.ipynb
+          git add src/sincronicas/datos src/sincronicas/reportes src/sincronicas/Semana_1SINC.ipynb AE2/resultados/resumen_dataframe.txt AE2/notebooks/EA2_Exploracion_Dataset_HuggingFace.ipynb
 
           if git diff --cached --quiet; then
             echo "No se generaron cambios nuevos."

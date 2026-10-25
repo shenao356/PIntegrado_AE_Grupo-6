@@ -4,10 +4,20 @@
 
 ---
 
+## Propósito y Necesidad Analítica
+
+- **Propósito:** Definir y documentar una necesidad de analítica descriptiva en el sector gastronómico de la ciudad de Nueva York a partir del reconocimiento técnico de un dataset de Hugging Face, ejecutando un flujo reproducible en Jupyter que genera y verifica automáticamente el resumen estructural en `.txt`.
+- **Necesidad y Beneficiario:** Apoyar a emprendedores e inversionistas gastronómicos (escenario hipotético de consultoría sobre datos reales) que requieren caracterizar la oferta existente en los cinco distritos de Nueva York antes de tomar decisiones de apertura o posicionamiento.
+- **Pregunta de Análisis:** *¿Cómo se distribuyen los establecimientos gastronómicos registrados en la ciudad de Nueva York según sus distritos geográficos, especialidades culinarias predominantes, rangos de precio y calificaciones de los usuarios, y qué patrones caracterizan su oferta comercial para orientar decisiones de apertura y posicionamiento?*
+
+---
+
 ## Estructura de esta actividad
 
 ```text
 AE2/
+├── documento/
+│   └── EA2 S30 - Morales Henao Raul Santiago.docx  # Documento inicial del proyecto (Ideacion y Diseno)
 ├── notebooks/
 │   └── EA2_Exploracion_Dataset_HuggingFace.ipynb   # Cuaderno Jupyter con la carga y exploracion
 ├── resultados/
