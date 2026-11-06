@@ -1,0 +1,7 @@
+Barrio,Restaurantes,Participacion_Locales_Pct,Resenas_Acumuladas,Participacion_Resenas_Pct,Promedio_Resenas,Calificacion_Promedio,Reputacion_Ponderada,Popularidad_Promedio,Pct_Alta_Reputacion,Locales_por_Km2,Locales_por_10k_Hab,Poblacion_Distrito,Superficie_Km2,Vocacion_Comercial
+Manhattan,10213,40.59,982074,40.65,96.16,3.52,3.56,360.33,43.06,172.81,60.28,1694251,59.1,"Centro financiero, turístico y corporativo"
+Brooklyn,6046,24.03,574809,23.79,95.07,3.54,3.57,353.97,44.08,33.59,22.1,2736074,180.0,"Residencial denso, cultural y gastronómico emergente"
+Queens,5615,22.32,546034,22.6,97.25,3.54,3.57,363.67,43.85,19.94,23.34,2405464,281.6,"Multicultural, residencial y aeroportuario"
+Bronx,2322,9.23,220785,9.14,95.08,3.52,3.55,352.28,43.5,21.26,15.77,1472654,109.2,Residencial urbano y comercio barrial
+Staten Island,963,3.83,92194,3.82,95.74,3.55,3.58,359.81,46.11,6.36,19.43,495747,151.5,Suburbano y baja densidad comercial
+TOTAL / GLOBAL NYC,25159,100.0,2415896,100.0,96.03,3.53,3.56,358.78,43.64,32.2,28.58,8804190,781.4,Consolidado 5 distritos de Nueva York

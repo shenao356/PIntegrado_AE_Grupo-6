@@ -1,0 +1,21 @@
+Barrio,Rango_Precio,Categoria_Precio,Restaurantes,Resenas_Acumuladas,Promedio_Resenas,Calificacion_Promedio,Reputacion_Ponderada,Popularidad_Promedio,Pct_Alta_Reputacion,Participacion_En_Distrito_Pct,Participacion_Global_Pct
+Bronx,1,1 - Económico ($),998,57626,57.74,3.43,3.53,214.52,42.38,42.98,3.97
+Bronx,2,2 - Moderado ($$),1234,150502,121.96,3.59,3.57,451.41,43.92,53.14,4.9
+Bronx,3,3 - Costoso ($$$),78,10024,128.51,3.56,3.6,474.78,51.28,3.36,0.31
+Bronx,4,4 - Gourmet / Exclusivo ($$$$),12,2633,219.42,3.75,3.75,819.25,41.67,0.52,0.05
+Brooklyn,1,1 - Económico ($),2538,151077,59.53,3.46,3.54,221.21,43.3,41.98,10.09
+Brooklyn,2,2 - Moderado ($$),3254,374017,114.94,3.6,3.58,426.76,44.59,53.82,12.93
+Brooklyn,3,3 - Costoso ($$$),213,44450,208.69,3.6,3.62,799.28,46.01,3.52,0.85
+Brooklyn,4,4 - Gourmet / Exclusivo ($$$$),41,5265,128.41,3.48,3.58,480.98,41.46,0.68,0.16
+Manhattan,1,1 - Económico ($),4201,259836,61.85,3.41,3.52,228.2,40.16,41.13,16.7
+Manhattan,2,2 - Moderado ($$),5597,650560,116.23,3.6,3.59,436.31,45.06,54.8,22.25
+Manhattan,3,3 - Costoso ($$$),364,64517,177.24,3.57,3.61,688.4,44.78,3.56,1.45
+Manhattan,4,4 - Gourmet / Exclusivo ($$$$),51,7161,140.41,3.4,3.6,564.17,50.98,0.5,0.2
+Queens,1,1 - Económico ($),2349,159645,67.96,3.44,3.54,252.21,41.51,41.83,9.34
+Queens,2,2 - Moderado ($$),3033,343901,113.39,3.61,3.59,424.36,45.63,54.02,12.06
+Queens,3,3 - Costoso ($$$),209,36894,176.53,3.53,3.6,672.22,42.58,3.72,0.83
+Queens,4,4 - Gourmet / Exclusivo ($$$$),24,5594,233.08,3.69,3.74,916.9,58.33,0.43,0.1
+Staten Island,1,1 - Económico ($),419,24474,58.41,3.43,3.53,216.83,44.15,43.51,1.67
+Staten Island,2,2 - Moderado ($$),504,60818,120.67,3.64,3.61,455.48,46.83,52.34,2.0
+Staten Island,3,3 - Costoso ($$$),35,5510,157.43,3.64,3.64,583.53,54.29,3.63,0.14
+Staten Island,4,4 - Gourmet / Exclusivo ($$$$),5,1392,278.4,4.1,3.95,1133.1,80.0,0.52,0.02

@@ -1,0 +1,135 @@
+==============================================================================
+REPORTE DESCRIPTIVO DEL DATAFRAME TRANSFORMADO Y ENRIQUECIDO (AE3)
+==============================================================================
+Etapa del Proyecto:              AE3 - Transformación y Enriquecimiento de Datos (Etapa 2)
+Dataset en Hugging Face:         MongoDB/whatscooking.restaurants
+Split / Partición utilizada:     train
+Total de Filas (Registros):      25,159
+Total de Columnas (Variables):   27
+Filas Duplicadas Exactas:        0
+------------------------------------------------------------------------------
+1. LISTADO DE COLUMNAS Y TIPOS DE DATOS (DTYPES):
+------------------------------------------------------------------------------
+   1. ID_Restaurante                 | Tipo: str         
+   2. Nombre                         | Tipo: str         
+   3. Barrio                         | Tipo: str         
+   4. Tipo_Cocina                    | Tipo: str         
+   5. Calificacion                   | Tipo: float64     
+   6. Total_Resenas                  | Tipo: int64       
+   7. Mesas_Exteriores               | Tipo: bool        
+   8. Para_Llevar                    | Tipo: bool        
+   9. Hora_Feliz                     | Tipo: bool        
+  10. Permite_Mascotas               | Tipo: bool        
+  11. Codigo_Postal                  | Tipo: str         
+  12. Latitud                        | Tipo: float64     
+  13. Longitud                       | Tipo: float64     
+  14. Cantidad_Platos_Menu           | Tipo: int64       
+  15. Categoria_Precio_Declarada     | Tipo: str         
+  16. Rango_Precio                   | Tipo: int64       
+  17. Categoria_Precio               | Tipo: str         
+  18. Puntaje_Popularidad            | Tipo: float64     
+  19. Indice_Reputacion_Ponderada    | Tipo: float64     
+  20. Segmento_Reputacion            | Tipo: str         
+  21. Nivel_Traccion_Resenas         | Tipo: str         
+  22. Total_Servicios                | Tipo: int64       
+  23. Nivel_Servicios                | Tipo: str         
+  24. Familia_Culinaria              | Tipo: str         
+  25. Poblacion_Distrito             | Tipo: int64       
+  26. Superficie_Km2                 | Tipo: float64     
+  27. Vocacion_Comercial             | Tipo: str         
+------------------------------------------------------------------------------
+2. CONTEO Y PORCENTAJE DE VALORES NULOS POR COLUMNA:
+------------------------------------------------------------------------------
+  - ID_Restaurante                   | Nulos:     0 (  0.00 %)
+  - Nombre                           | Nulos:     0 (  0.00 %)
+  - Barrio                           | Nulos:     0 (  0.00 %)
+  - Tipo_Cocina                      | Nulos:     0 (  0.00 %)
+  - Calificacion                     | Nulos:     0 (  0.00 %)
+  - Total_Resenas                    | Nulos:     0 (  0.00 %)
+  - Mesas_Exteriores                 | Nulos:     0 (  0.00 %)
+  - Para_Llevar                      | Nulos:     0 (  0.00 %)
+  - Hora_Feliz                       | Nulos:     0 (  0.00 %)
+  - Permite_Mascotas                 | Nulos:     0 (  0.00 %)
+  - Codigo_Postal                    | Nulos:     0 (  0.00 %)
+  - Latitud                          | Nulos:     0 (  0.00 %)
+  - Longitud                         | Nulos:     0 (  0.00 %)
+  - Cantidad_Platos_Menu             | Nulos:     0 (  0.00 %)
+  - Categoria_Precio_Declarada       | Nulos:     0 (  0.00 %)
+  - Rango_Precio                     | Nulos:     0 (  0.00 %)
+  - Categoria_Precio                 | Nulos:     0 (  0.00 %)
+  - Puntaje_Popularidad              | Nulos:     0 (  0.00 %)
+  - Indice_Reputacion_Ponderada      | Nulos:     0 (  0.00 %)
+  - Segmento_Reputacion              | Nulos:     0 (  0.00 %)
+  - Nivel_Traccion_Resenas           | Nulos:     0 (  0.00 %)
+  - Total_Servicios                  | Nulos:     0 (  0.00 %)
+  - Nivel_Servicios                  | Nulos:     0 (  0.00 %)
+  - Familia_Culinaria                | Nulos:     0 (  0.00 %)
+  - Poblacion_Distrito               | Nulos:     0 (  0.00 %)
+  - Superficie_Km2                   | Nulos:     0 (  0.00 %)
+  - Vocacion_Comercial               | Nulos:     0 (  0.00 %)
+------------------------------------------------------------------------------
+3. ESTADÍSTICAS DESCRIPTIVAS DE VARIABLES NUMÉRICAS:
+------------------------------------------------------------------------------
+       Calificacion  Total_Resenas   Latitud  Longitud  Cantidad_Platos_Menu  Rango_Precio  Puntaje_Popularidad  Indice_Reputacion_Ponderada  Total_Servicios  Poblacion_Distrito  Superficie_Km2
+count     25,159.00      25,159.00 25,159.00 25,159.00             25,159.00     25,159.00            25,159.00                    25,159.00        25,159.00           25,159.00       25,159.00
+mean           3.53          96.03     40.73    -73.94                  6.80          1.63               358.78                         3.56             2.26        2,037,015.63          145.97
+std            0.79         193.60      0.07      0.08                  6.04          0.58               771.66                         0.38             0.89          561,926.22           87.03
+min            1.00           5.00     40.51    -74.25                  0.00          1.00                 5.00                         1.56             1.00          495,747.00           59.10
+25%            3.00          16.00     40.69    -73.99                  0.00          1.00                52.00                         3.34             2.00        1,694,251.00           59.10
+50%            3.50          39.00     40.74    -73.96                 12.00          2.00               135.00                         3.52             2.00        1,694,251.00          151.50
+75%            4.00         103.00     40.76    -73.90                 12.00          2.00               375.00                         3.83             3.00        2,405,464.00          180.00
+max            5.00       9,185.00     40.91    -73.67                 14.00          4.00            32,485.50                         4.92             4.00        2,736,074.00          281.60
+------------------------------------------------------------------------------
+4. DISTRIBUCIÓN DE VARIABLES LÓGICAS / BOOLEANAS (SERVICIOS):
+------------------------------------------------------------------------------
+  - Mesas_Exteriores                 | Sí (True): 20,127 ( 80.00 %) | No (False):  5,032
+  - Para_Llevar                      | Sí (True): 25,159 (100.00 %) | No (False):      0
+  - Hora_Feliz                       | Sí (True):  5,917 ( 23.52 %) | No (False): 19,242
+  - Permite_Mascotas                 | Sí (True):  5,638 ( 22.41 %) | No (False): 19,521
+------------------------------------------------------------------------------
+5. DISTRIBUCIÓN DE VARIABLES CATEGÓRICAS E INDICADORES DERIVADOS CLAVE:
+------------------------------------------------------------------------------
+Variable: Barrio
+    * Manhattan                                 : 10,213 ( 40.59 %)
+    * Brooklyn                                  :  6,046 ( 24.03 %)
+    * Queens                                    :  5,615 ( 22.32 %)
+    * Bronx                                     :  2,322 (  9.23 %)
+    * Staten Island                             :    963 (  3.83 %)
+
+Variable: Familia_Culinaria
+    * Norteamericana                            :  7,231 ( 28.74 %)
+    * Europea y Mediterránea                    :  4,639 ( 18.44 %)
+    * Asiática                                  :  4,584 ( 18.22 %)
+    * Cafetería, Panadería y Postres            :  2,918 ( 11.60 %)
+    * Latinoamericana y Caribeña                :  2,512 (  9.98 %)
+    * Otras Cocinas del Mundo                   :  1,641 (  6.52 %)
+    * Sandwiches, Deli y Casual                 :  1,137 (  4.52 %)
+    * Saludable, Vegetariana y Bebidas          :    497 (  1.98 %)
+
+Variable: Categoria_Precio
+    * 2 - Moderado ($$)                         : 13,622 ( 54.14 %)
+    * 1 - Económico ($)                         : 10,505 ( 41.75 %)
+    * 3 - Costoso ($$$)                         :    899 (  3.57 %)
+    * 4 - Gourmet / Exclusivo ($$$$)            :    133 (  0.53 %)
+
+Variable: Categoria_Precio_Declarada
+    * 2 - Moderado ($$)                         : 11,459 ( 45.55 %)
+    * 1 - Económico ($)                         : 10,275 ( 40.84 %)
+    * No Especificado                           :  2,394 (  9.52 %)
+    * 3 - Costoso ($$$)                         :    899 (  3.57 %)
+    * 4 - Gourmet / Exclusivo ($$$$)            :    132 (  0.52 %)
+
+Variable: Segmento_Reputacion
+    * 3. Aceptable (3.0 - 3.5 ★)                : 10,074 ( 40.04 %)
+    * 2. Sobresaliente (4.0 ★)                  :  6,458 ( 25.67 %)
+    * 1. Excelente (4.5 - 5.0 ★)                :  4,521 ( 17.97 %)
+    * 4. Baja Valoración (< 3.0 ★)              :  4,106 ( 16.32 %)
+
+Variable: Nivel_Servicios
+    * 2. Intermedio (2 servicios)               : 12,932 ( 51.40 %)
+    * 3. Completo / Multipropósito (3-4 servicios):  7,839 ( 31.16 %)
+    * 1. Básico (1 servicio)                    :  4,388 ( 17.44 %)
+
+==============================================================================
+Fin del reporte automático generado a partir del DataFrame final preparado.
+==============================================================================

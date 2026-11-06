@@ -1,0 +1,9 @@
+Control_o_Etapa,Estado_Inicial_AE2,Estado_Final_AE3,Registros_Afectados,Criterio_y_Justificacion
+1. Volumen de filas (Observaciones),"25,361 filas","25,159 filas",202 excluidos (0.80%),Se excluyeron 151 locales sin nombre ('') y 51 con distrito 'Missing' para garantizar integridad geográfica.
+2. Cantidad de variables (Columnas),18 columnas crudas,27 columnas preparadas,"25,159 registros","Se descartaron campos anidados/vacíos (_id, embedding, sponsored) y se crearon 12 variables enriquecidas."
+3. Unicidad de clave (ID_Restaurante),"25,360 únicos (1 duplicado)","25,159 únicos (0 duplicados)",1 registro (ID 40720599_2),Dos restaurantes reales compartían el ID 40720599; se desambiguó la clave sin perder el local.
+4. Normalización de Tipo_Cocina,85 categorías (con Mojibake),84 categorías + 8 Familias,"1,798 registros normalizados","Se corrigieron 2 errores UTF-8 ('CafÃ©/Coffee/Tea') y 5 nombres extensos, agrupándolos en 8 familias."
+5. Tratamiento de Rango_Precio,"float64 con 2,414 nulos (9.52%)",int64 con 0 nulos + Categoría,"2,394 nulos imputados","Se preservó 'No Especificado' en Categoria_Precio_Declarada y se imputó Rango_Precio por mediana de (Cocina, Barrio)."
+6. Tipado de servicios de conveniencia,object con miles de None,bool estricto (True/False),"5,032 a 19,520 registros","Conversión a booleano de Mesas_Exteriores, Para_Llevar, Hora_Feliz y Permite_Mascotas; cálculo de Total_Servicios."
+7. Validación de rangos numéricos,"stars [1-5], review_count [>=5]",0 fuera de rango o negativos,0 incidencias detectadas,Control preventivo exitoso: todas las calificaciones y conteos de reseñas cumplen las reglas de dominio.
+8. Integración con catálogo de distritos,Sin contexto demográfico,Unión many_to_one validada,"25,159 coincidencias exactas","Merge por Barrio sin multiplicación de filas ni alteración de la suma total de reseñas (2,415,896)."
