@@ -1,0 +1,4 @@
+Nivel_Servicios,Restaurantes,Resenas_Acumuladas,Promedio_Resenas,Mediana_Resenas,Calificacion_Promedio,Reputacion_Ponderada,Popularidad_Promedio,Pct_Alta_Reputacion,Pct_Para_Llevar,Pct_Mesas_Exteriores,Pct_Hora_Feliz,Pct_Permite_Mascotas,Participacion_Locales_Pct,Participacion_Resenas_Pct
+1. Básico (1 servicio),4388,124068,28.27,15.0,3.5,3.54,102.87,45.4,100.0,0.0,0.0,0.0,17.44,5.14
+2. Intermedio (2 servicios),12932,803977,62.17,33.0,3.4,3.49,221.26,35.79,100.0,95.61,0.94,3.46,51.4,33.28
+3. Completo / Multipropósito (3-4 servicios),7839,1487851,189.8,105.0,3.76,3.69,728.92,55.61,100.0,99.03,73.94,66.22,31.16,61.59

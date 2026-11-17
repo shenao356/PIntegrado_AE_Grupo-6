@@ -1,0 +1,5 @@
+Rango_Precio,Categoria_Precio,Restaurantes,Resenas_Acumuladas,Promedio_Resenas,Mediana_Resenas,Calificacion_Promedio,Reputacion_Ponderada,Popularidad_Promedio,Pct_Alta_Reputacion,Participacion_Locales_Pct,Participacion_Resenas_Pct
+1,1 - Económico ($),10505,652658,62.13,30.0,3.43,3.53,230.13,41.59,41.75,27.02
+2,2 - Moderado ($$),13622,1579798,115.97,49.0,3.6,3.59,433.44,45.04,54.14,65.39
+3,3 - Costoso ($$$),899,161395,179.53,81.0,3.57,3.61,688.29,45.49,3.57,6.68
+4,4 - Gourmet / Exclusivo ($$$$),133,22045,165.75,35.0,3.53,3.64,646.58,49.62,0.53,0.91

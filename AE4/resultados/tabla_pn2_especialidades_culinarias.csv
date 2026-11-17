@@ -1,0 +1,16 @@
+Tipo_Cocina,Familia_Culinaria,Restaurantes,Resenas_Acumuladas,Promedio_Resenas,Calificacion_Promedio,Reputacion_Ponderada,Popularidad_Promedio,Precio_Promedio,Pct_Alta_Reputacion,Participacion_Locales_Pct
+American,Norteamericana,6173,579024,93.8,3.52,3.56,348.66,1.64,43.27,24.54
+Chinese,Asiática,2415,223766,92.66,3.53,3.56,343.0,1.64,43.27,9.6
+Café/Coffee/Tea,"Cafetería, Panadería y Postres",1212,119387,98.5,3.56,3.58,370.09,1.64,44.64,4.82
+Pizza,Europea y Mediterránea,1162,106935,92.03,3.53,3.57,343.7,1.64,45.87,4.62
+Italian,Europea y Mediterránea,1069,103392,96.72,3.53,3.56,366.07,1.66,43.59,4.25
+Other,Otras Cocinas del Mundo,856,88328,103.19,3.51,3.57,390.2,1.63,41.24,3.4
+Latin American,Latinoamericana y Caribeña,850,89109,104.83,3.52,3.56,397.2,1.62,43.41,3.38
+Japanese,Asiática,758,68043,89.77,3.51,3.54,331.25,1.64,40.9,3.01
+Mexican,Latinoamericana y Caribeña,753,74505,98.94,3.51,3.55,376.95,1.58,44.36,2.99
+Bakery,"Cafetería, Panadería y Postres",689,53921,78.26,3.51,3.55,286.0,1.61,41.94,2.74
+Caribbean,Latinoamericana y Caribeña,656,64126,97.75,3.53,3.56,363.63,1.55,42.84,2.61
+Spanish,Europea y Mediterránea,636,70766,111.27,3.51,3.56,413.22,1.64,42.14,2.53
+Donuts,"Cafetería, Panadería y Postres",479,45242,94.45,3.52,3.55,351.94,1.63,41.75,1.9
+Pizza/Italian,Europea y Mediterránea,468,40275,86.06,3.56,3.57,322.16,1.6,44.87,1.86
+Sandwiches,"Sandwiches, Deli y Casual",458,39615,86.5,3.55,3.58,327.44,1.65,44.76,1.82
